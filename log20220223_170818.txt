@@ -1,0 +1,54 @@
+2022.02.23:17:08:18.923: main Phoenix Miner 5.9d Windows/msvc - Release build
+2022.02.23:17:08:18.923: main Cmd line: -pool asia1.ethermine.org:14444 -wal 0xe213196a95c190c9fd81eb9a6789d0751c4ff034.adc1 -pass x -proto 3 
+2022.02.23:17:08:18.937: main CUDA version: 11.0, CUDA runtime: 8.0
+2022.02.23:17:08:18.945: main NVML library initialized
+2022.02.23:17:08:18.962: main Nvidia driver version: 511.23
+2022.02.23:17:08:18.973: main No OpenCL platforms found
+2022.02.23:17:08:18.973: main Available GPUs for mining:
+2022.02.23:17:08:18.973: main GPU1: MSI NVIDIA GeForce GTX 1060 3GB (pcie 1), CUDA cap. 6.1, 3 GB VRAM, 9 CUs
+2022.02.23:17:08:19.311: main Eth: Loading pools from epools.txt
+2022.02.23:17:08:19.311: main Eth: the pool list contains 9 pools (1 from command-line)
+2022.02.23:17:08:19.311: main Eth: primary pool: asia1.ethermine.org:14444
+2022.02.23:17:08:19.311: main Starting GPU mining
+2022.02.23:17:08:19.429: wdog Starting watchdog thread
+2022.02.23:17:08:19.430: main Eth: Connecting to ethash pool asia1.ethermine.org:14444 (proto: QtMiner)
+2022.02.23:17:08:19.431: main GPU1: 42C 36% 32W
+GPUs power: 32.4 W
+2022.02.23:17:08:19.439: eths Eth: Connected to ethash pool asia1.ethermine.org:14444 (172.65.231.156)
+2022.02.23:17:08:19.439: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_login","params":["0xe213196a95c190c9fd81eb9a6789d0751c4ff034.adc1","x"]}
+
+2022.02.23:17:08:19.482: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2022.02.23:17:08:19.482: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2022.02.23:17:08:19.647: main Listening for CDM remote manager at port 3333 in read-only mode
+2022.02.23:17:08:21.153: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xad6a3fea65284f747b623a43b56292b3d2662957ae8f3ac06b7bfa73263df2cd","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:21.153: eths Eth: New job #ad6a3fea from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:21.157: GPU1 GPU1: Starting up... (0)
+2022.02.23:17:08:21.157: GPU1 GPU1: Generating ethash light cache for epoch #475
+2022.02.23:17:08:22.356: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x93d4d106806a119b541788c9f906a0fc049802d0b29e3fb77abb6264017ad9c4","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:22.356: eths Eth: New job #93d4d106 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:23.333: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6da49472df1e739531b83a03a5fa9c801b50fb81c82277e3bbe91c2b8204dd75","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:23.333: eths Eth: New job #6da49472 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:24.302: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x08d0a4610ea710e392add50c6ca38e0d6ae231377103019288138da0919f534a","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:24.302: eths Eth: New job #08d0a461 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:24.428: GPU1 Light cache generated in 3.3 s (23.0 MB/s)
+2022.02.23:17:08:24.502: GPU1 GPU1: Allocating DAG (4.73) GB; good for epoch up to #477
+2022.02.23:17:08:24.624: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2022.02.23:17:08:24.736: GPU1 CUDA error in CudaProgram.cu:393 : out of memory (2)
+2022.02.23:17:08:24.736: GPU1 GPU1: CUDA memory: 3.00 GB total, 2.43 GB free
+2022.02.23:17:08:24.736: GPU1 GPU1 initMiner error: out of memory
+2022.02.23:17:08:24.737: wdog Fatal error detected. Restarting.
+2022.02.23:17:08:25.356: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6a2c170336417349c99b69d0e8c8e8923efd31c72b3aff12507bfd1df68e8e39","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:25.356: eths Eth: New job #6a2c1703 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:26.296: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x38668c24e586b5ee020bf565d9c6ca51395c6d11e5e929928f95d0049a90aca4","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:26.296: eths Eth: New job #38668c24 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:27.345: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd26873565986a1b9d896d0af6ab070162f3d6a5083c04b185db8b12b2bfd41f0","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:27.345: eths Eth: New job #d2687356 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:28.270: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3b97c9c59d8a09c6c447879d88e7e7c3ab43c9a35db7484c42c24c78355f19b3","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:28.270: eths Eth: New job #3b97c9c5 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:29.313: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc59683f387eea2b202a00d6a01fd872427eb10c70c7c97dad1b2122fd2766771","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}
+2022.02.23:17:08:29.313: eths Eth: New job #c59683f3 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:08:29.443: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2022.02.23:17:08:29.662: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2022.02.23:17:08:30.352: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x446295a26f02ad89c26997d0d5b36a8b288efc96ee996cdb440da117bc4a7f27","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99bba"]}

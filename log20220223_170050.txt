@@ -1,0 +1,53 @@
+2022.02.23:17:00:50.545: main Phoenix Miner 5.9d Windows/msvc - Release build
+2022.02.23:17:00:50.545: main Cmd line: -pool asia1.ethermine.org:14444 -wal 0xe213196a95c190c9fd81eb9a6789d0751c4ff034.adc1 -pass x -proto 3 
+2022.02.23:17:00:50.562: main CUDA version: 11.0, CUDA runtime: 8.0
+2022.02.23:17:00:50.570: main NVML library initialized
+2022.02.23:17:00:50.590: main Nvidia driver version: 511.23
+2022.02.23:17:00:50.603: main No OpenCL platforms found
+2022.02.23:17:00:50.603: main Available GPUs for mining:
+2022.02.23:17:00:50.603: main GPU1: MSI NVIDIA GeForce GTX 1060 3GB (pcie 1), CUDA cap. 6.1, 3 GB VRAM, 9 CUs
+2022.02.23:17:00:50.939: main Eth: Loading pools from epools.txt
+2022.02.23:17:00:50.939: main Eth: the pool list contains 9 pools (1 from command-line)
+2022.02.23:17:00:50.939: main Eth: primary pool: asia1.ethermine.org:14444
+2022.02.23:17:00:50.940: main Starting GPU mining
+2022.02.23:17:00:51.089: wdog Starting watchdog thread
+2022.02.23:17:00:51.089: main Eth: Connecting to ethash pool asia1.ethermine.org:14444 (proto: QtMiner)
+2022.02.23:17:00:51.090: main GPU1: 41C 36% 10W
+GPUs power: 10.1 W
+2022.02.23:17:00:51.102: eths Eth: Connected to ethash pool asia1.ethermine.org:14444 (172.65.231.156)
+2022.02.23:17:00:51.102: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_login","params":["0xe213196a95c190c9fd81eb9a6789d0751c4ff034.adc1","x"]}
+
+2022.02.23:17:00:51.145: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2022.02.23:17:00:51.145: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2022.02.23:17:00:51.306: main Listening for CDM remote manager at port 3333 in read-only mode
+2022.02.23:17:00:51.941: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2cbf17d790ceb996eed625d23d85cfa98aabae2d333c2411a8b01e7bcc3d5249","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99b9e"]}
+2022.02.23:17:00:51.941: eths Eth: New job #2cbf17d7 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:00:51.944: GPU1 GPU1: Starting up... (0)
+2022.02.23:17:00:51.944: GPU1 GPU1: Generating ethash light cache for epoch #475
+2022.02.23:17:00:52.829: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x28c733a03d48beeef54c103e3a4095c04748e85bdaa983100862fbbeb4d40e40","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99b9f"]}
+2022.02.23:17:00:52.829: eths Eth: New job #28c733a0 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:00:52.979: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x12ecd74f3d41bda657e38ea5b33fb16582e2100df67842b00e71710f6053e1bf","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99b9f"]}
+2022.02.23:17:00:52.979: eths Eth: New job #12ecd74f from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:00:54.275: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa25c39be2c084ce43c50d944d14bca07c0c33695dc9a164825a6ee08b2b87f83","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99b9f"]}
+2022.02.23:17:00:54.275: eths Eth: New job #a25c39be from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:00:55.137: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xee9e6750692c56f0d36e447c06452ae6babdf4cf8f9f7a4305ab149a854f26a7","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99b9f"]}
+2022.02.23:17:00:55.137: eths Eth: New job #ee9e6750 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:00:55.218: GPU1 Light cache generated in 3.3 s (23.0 MB/s)
+2022.02.23:17:00:55.293: GPU1 GPU1: Allocating DAG (4.73) GB; good for epoch up to #477
+2022.02.23:17:00:55.541: GPU1 CUDA error in CudaProgram.cu:393 : out of memory (2)
+2022.02.23:17:00:55.541: GPU1 GPU1: CUDA memory: 3.00 GB total, 2.43 GB free
+2022.02.23:17:00:55.541: GPU1 GPU1 initMiner error: out of memory
+2022.02.23:17:00:55.541: wdog Fatal error detected. Restarting.
+2022.02.23:17:00:56.294: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2022.02.23:17:00:56.883: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa3c6715225c2f8614c89cead0a95fafcf74dea31a41f1fd7bb45defb221025b8","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99b9f"]}
+2022.02.23:17:00:56.883: eths Eth: New job #a3c67152 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:00:57.921: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbacfdca94e1c2850d0aac744754d50fb7f9100f71a15a565001f72e54e36a4de","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99b9f"]}
+2022.02.23:17:00:57.921: eths Eth: New job #bacfdca9 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:00:58.066: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x78f18d65b5c4d9e1122fe630c74d5c9e9893464814131ffb07d9d5f5a48bdfc9","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99ba0"]}
+2022.02.23:17:00:58.066: eths Eth: New job #78f18d65 from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:01:00.010: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x368fb0fade694f356010740768f2a1e973a2439d275826ae7a2040b56ce448aa","0xe736374b07685ba97504137c6dee5e379d69b6c2da40aa98409801e013bc5600","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xd99ba0"]}
+2022.02.23:17:01:00.010: eths Eth: New job #368fb0fa from asia1.ethermine.org:14444; diff: 4295MH
+2022.02.23:17:01:01.111: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2022.02.23:17:01:01.334: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00

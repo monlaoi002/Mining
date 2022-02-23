@@ -1,0 +1,2 @@
+2022.02.23:16:48:46.722: main Phoenix Miner 5.9d Windows/msvc - Release build
+2022.02.23:16:48:46.722: main Cmd line: -pool asia1.ethermine.org:14444 -wal 0xe213196a95c190c9fd81eb9a6789d0751c4ff034.adc1 -pass x -proto 3 
